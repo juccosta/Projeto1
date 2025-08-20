@@ -72,10 +72,11 @@
             // dgvCadastro
             // 
             this.dgvCadastro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCadastro.Location = new System.Drawing.Point(158, 160);
+            this.dgvCadastro.Location = new System.Drawing.Point(158, 164);
             this.dgvCadastro.Name = "dgvCadastro";
             this.dgvCadastro.Size = new System.Drawing.Size(325, 150);
             this.dgvCadastro.TabIndex = 3;
+            this.dgvCadastro.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvCadastro_MouseDoubleClick);
             // 
             // btnSalvar
             // 
